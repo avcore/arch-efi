@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Arch Linux Fast Install - Быстрая установка Arch Linux https://github.com/ordanax/arch2018
-# Цель скрипта - быстрое развертывание системы с вашими персональными настройками (конфиг XFCE, темы, программы и т.д.).
+# Arch Linux Fast Install - Быстрая установка Arch Linux
+# Цель скрипта - быстрое развертывание системы c персональными настройками (конфиг XFCE, темы, программы и т.д.).
 
-# Автор скрипта Алексей Бойко https://vk.com/ordanax
+
 
 
 loadkeys ru
 setfont cyr-sun16
-echo 'Скрипт сделан на основе чеклиста Бойко Алексея по Установке ArchLinux'
+
 echo 'Ссылка на чек лист есть в группе vk.com/arch4u'
 
 echo '2.3 Синхронизация системных часов'
@@ -21,7 +21,7 @@ echo '2.4 создание разделов'
  echo n;
  echo ;
  echo;
- echo +300M;
+ echo +3G;
  echo y;
  echo t;
  echo 1;
@@ -29,7 +29,7 @@ echo '2.4 создание разделов'
  echo n;
  echo;
  echo;
- echo +30G;
+ echo +60G;
  echo y;
  
   
